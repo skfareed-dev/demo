@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collapsible Nested List</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <ul class="collapsible-list">
+        <li>
+            <span class="toggle">Fruits</span>
+            <ul class="nested">
+                <li>Apple</li>
+                <li>Banana</li>
+                <li>
+                    <span class="toggle">Citrus</span>
+                    <ul class="nested">
+                        <li>Orange</li>
+                        <li>Lemon</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <span class="toggle">Vegetables</span>
+            <ul class="nested">
+                <li>Carrot</li>
+                <li>Broccoli</li>
+            </ul>
+        </li>
+    </ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
