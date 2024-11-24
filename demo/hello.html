@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav bar</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .item{
+            text-decoration: none;
+            color: black;
+        }
+        .item:hover{
+            text-decoration: none;
+            color:black;
+            animation: item 1s infinite;
+        }
+        @keyframes item{
+            from{
+                background:linear-gradient(to right,red,blue);
+                color: white;
+            }
+            to{
+                background:linear-gradient(to right,blue,red);
+                color: white;
+            }
+        }
+        
+        nav{
+            background-color: white;
+display: flex;
+justify-content: space-around;
+        }
+    nav> li{
+       list-style: none;
+    }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul></ul>
+                <li ><a  class="item" href="#">Home</a></li>
+                <li><a class="item" href="#">About</a></li>
+                <li><a class="item" href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+</body>
+</html>

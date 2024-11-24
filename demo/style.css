@@ -1,0 +1,21 @@
+/* .main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+ .main{
+    width: 100%;
+    margin: 0 auto;
+    background: linear-gradient(to right, #2d1db9, #caa4a4);
+    
+ }
+ .navbar ul {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    list-style: none;
+ }
+ .logo{
+    float: left;
+ }
+ 
