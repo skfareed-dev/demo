@@ -1,0 +1,26 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nested {
+    display: none;
+    margin-left: 20px;
+}
+
+.toggle {
+    cursor: pointer;
+    user-select: none; /* Prevent text selection */
+}
+
+.toggle::before {
+    content: "▶ ";
+    display: inline-block;
+    transition: transform 0.2s;
+}
+
+.toggle.active::before {
+    transform: rotate(90deg);
+}
