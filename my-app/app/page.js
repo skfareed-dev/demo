@@ -130,7 +130,9 @@ export default function Home() {
           >
             <span>⚡</span> Next.js Docs
           </a> */}
-          <p style={{ fontSize: "15px", color: "green" }}>&copy; 2024 AI Generator by JP. All rights reserved.</p>
+          <p style={{ fontSize: "15px", color: "red" }}>
+            &copy; 2024 AI Generator by JP. All rights reserved.
+          </p>
         </div>
       </main>
     </div>
